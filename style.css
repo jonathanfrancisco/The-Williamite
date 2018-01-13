@@ -53,3 +53,26 @@
     width: 100%;
     max-width: 1150px;
 }
+
+
+/********************
+    
+*********************/
+
+
+.headline {
+    border: 1px solid black;
+    display: flex;
+}
+
+
+.headline__main {
+    width: 70%;
+    border: 1px solid black;
+}
+
+.headline__sub {
+   width: 30%;
+   border: 1px solid black;
+
+}
