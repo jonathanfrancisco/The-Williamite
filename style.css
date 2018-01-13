@@ -48,3 +48,8 @@
     font-size: 1.35em;
     padding: 10px;
 }
+
+.photo-cover {
+    width: 100%;
+    max-width: 1150px;
+}
