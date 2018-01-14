@@ -9,6 +9,15 @@
     width: 100%;
 }
 
+.blue {
+    color: #033d7d;
+}
+
+.gold {
+    /* It's actually yellow lol */
+    color: #ffea01;
+}
+
 
 /***************************
     HEADER - NAVIGATION
