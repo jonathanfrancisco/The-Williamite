@@ -130,8 +130,14 @@ p {
 }
 
 .headline__sub {
+   display: flex;
+   flex-direction: column;
    width: 35%;
    padding: 15px;
+}
+
+.headline__sub__news {
+    flex-grow: 1;
 }
 
 /***********
