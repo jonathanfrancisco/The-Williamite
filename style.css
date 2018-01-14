@@ -118,14 +118,14 @@ p {
 .headline {
     padding-bottom: 15px;
     display: flex;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 
 .headline__main {
     width: 65%;
     padding: 15px;
-    border-right: 1px dashed rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.2);
   
 }
 
@@ -140,9 +140,9 @@ p {
 .featured {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2px;
+    margin-top: 5px;
     padding-top: 8px;
-    border-top: 1px solid rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(0,0,0,0.2);
 }
 
 .featured__news {
@@ -150,7 +150,7 @@ p {
     padding: 5px;
     margin: 15px;
     flex-grow: 1;
-    border-bottom: 1px dashed rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 
