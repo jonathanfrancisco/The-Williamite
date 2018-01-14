@@ -28,7 +28,7 @@ a {
 }
 
 .news-image-small {
-    max-width: 300px;
+    max-width: 320px;
 }
 
 .news-title {
@@ -170,7 +170,28 @@ p {
 }
 
 
+/**********
+    NORM NEWS
+***********/
 
+.norm {
+    margin-top: 5px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.norm__news { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.norm__news__desc-container {
+    padding: 15px;
+}
 
 
 
