@@ -53,11 +53,11 @@
 }
 
 .header__navigation li:hover {
-    border-bottom: 2px solid royalblue;
+    border-bottom: 2px solid #033d7d;
 }
 
 .header__navigation_li--active  {
-    border-bottom: 2px solid royalblue;
+    border-bottom: 2px solid #033d7d;
 }
 
 .header__navigation a {
@@ -95,7 +95,7 @@ a {
 }
 
 .news-title:hover {
-    color: royalblue;
+    color: #033d7d;
     text-decoration: underline;
 }
 
