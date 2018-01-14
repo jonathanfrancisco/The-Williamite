@@ -4,6 +4,11 @@
     margin: 0 auto;
 }
 
+
+/***************************
+    HEADER - NAVIGATION
+***************************/
+
 .header {
     margin-top: 1.35em;
     display: flex;
@@ -54,7 +59,7 @@
 
 
 /********************
-    BASE
+    MAULIT ULIT MET ANYA MET
 *********************/
 a {
     text-decoration: none;
@@ -63,6 +68,10 @@ a {
 .news-image {
     width: 100%;
     max-height: 480px;
+}
+
+.news-image-small {
+    max-width: 300px;
 }
 
 .news-title {
@@ -80,21 +89,15 @@ a {
 }
 
 
-
-
 /*****************
-
-
+    BIG ASS HEADLINE
 *****************/
-
-
-
 
 .headline {
     margin-top: 15px;
     padding-bottom: 15px;
     display: flex;
-    border-bottom: 1px dashed rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 
 
@@ -109,3 +112,39 @@ a {
    width: 35%;
    padding: 15px;
 }
+
+/***********
+ FEATURED NEWS
+***********/
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+.featured__news {
+    flex-basis: 245px;
+    padding: 5px;
+    margin: 15px;
+    flex-grow: 1;
+    border-bottom: 1px dashed rgba(0,0,0,0.5);
+}
+
+
+.featured__news:nth-child(2), .featured__news:nth-child(6) {
+    flex-basis: 700px;
+    display: flex;
+}
+
+.featured__news__image-container {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
